@@ -34,9 +34,3 @@ if sys.argv[1]=='encode':
     AnyFileBase64().Encode(sys.argv[2])
 if sys.argv[1]=='decode':
     AnyFileBase64().Decode(sys.argv[2])
-    
-    
-    
-# image_decode = base64.decodestring(image_encode)
-# with open('deer_decode.gif','wb') as dimage:
-# dimage.write(image_decode)
